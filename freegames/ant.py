@@ -45,3 +45,10 @@ tracer(False)
 up()
 draw()
 done()
+
+def abc(x,y):
+    '''
+    >>>s= abc(1,2)
+    >>>s
+    '''
+    return x+y
