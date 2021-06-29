@@ -15,5 +15,6 @@
 /dist/
 /docs/_build/
 /freegames.egg-info/
+/.idea/
 
 .DS_Store
