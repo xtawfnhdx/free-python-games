@@ -35,16 +35,16 @@ def get_key():
         return 0
 
 
-print('Do you wish to encrypt, decrypt, or decode a message?')
+print('Do you wish to encrypt, decrypt, or decode a initdata?')
 choice = input()
 
 if choice == "encrypt":
     phrase = input('Message:')
     code = get_key()
-    print('Encrypt message:', encrypt(phrase, code))
+    print('Encrypt initdata:', encrypt(phrase, code))
 elif choice == "decrypt":
     phrase = input('Message:')
     code = get_key()
-    print('Decrypt message:', decrypt(phrase, code))
+    print('Decrypt initdata:', decrypt(phrase, code))
 else:
     print('Error: Unrecognized Command')

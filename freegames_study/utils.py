@@ -46,7 +46,7 @@ def path(filename):
 
 
 def line(a, b, x, y):
-    "Draw line from `(a, b)` to `(x, y)`."
+    "drawBox line from `(a, b)` to `(x, y)`."
     import turtle
 
     turtle.up()
@@ -56,7 +56,7 @@ def line(a, b, x, y):
 
 
 def square(x, y, size, name):
-    """Draw square at `(x, y)` with side length `size` and fill color `name`.
+    """drawBox square at `(x, y)` with side length `size` and fill color `name`.
 
     The square is oriented so the bottom left corner is at (x, y).
 
